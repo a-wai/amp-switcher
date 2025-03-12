@@ -45,7 +45,9 @@ used in 3 different ways:
 
 Finally, the PCB is split in blocks of 2 relays, with oblong holes in the board
 so it can easily be broken to only keep the needed number of I/Os. This allows
-the same design to be used in projects of different sizes.
+the same design to be used in projects of different sizes. Of course, you can
+avoid wasting material by using the properly-sized PCB: we provide design and
+Gerber files for variants with 2, 4, 6 or 8 relays.
 
 ![](img/relays-bare-pcb.png)
 
