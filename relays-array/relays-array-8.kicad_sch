@@ -2594,6 +2594,12 @@
 		(uuid "4a77eb3d-a86a-4790-a855-f7f3c3f9b81f")
 	)
 	(junction
+		(at 223.774 199.136)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b419f9b-98c7-4835-b972-a4875d74da0b")
+	)
+	(junction
 		(at 282.448 219.202)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2660,16 +2666,16 @@
 		(uuid "83fb223b-c424-4325-9349-ca0218c26e42")
 	)
 	(junction
-		(at 237.998 219.202)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85288b0f-e1b9-45cc-9437-1f3d1cbf584c")
-	)
-	(junction
 		(at 352.044 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85480ad7-47dc-4626-ac0a-8dd0cbc1a505")
+	)
+	(junction
+		(at 223.774 219.202)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "865e0115-611a-40fc-9757-d90073697502")
 	)
 	(junction
 		(at 330.962 92.456)
@@ -2688,6 +2694,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d6eb2d5-7076-4dd1-81e2-59f7496d3fe4")
+	)
+	(junction
+		(at 237.998 219.202)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ac42aa-6cb4-4b65-a822-bc0f54954537")
 	)
 	(junction
 		(at 74.168 73.66)
@@ -2800,7 +2812,7 @@
 		(uuid "12bcecf7-e005-4fbe-aacd-b23ee791df86")
 	)
 	(no_connect
-		(at 237.998 196.596)
+		(at 212.598 196.596)
 		(uuid "21010759-f03a-4336-ba70-b5c8cd945dc9")
 	)
 	(no_connect
@@ -2820,7 +2832,7 @@
 		(uuid "280253aa-b6c9-452f-8431-def80f128f6a")
 	)
 	(no_connect
-		(at 237.998 204.216)
+		(at 212.598 204.216)
 		(uuid "32bc2a28-b122-46ac-87de-8074cbc19e0f")
 	)
 	(no_connect
@@ -2916,7 +2928,7 @@
 		(uuid "b5146c57-9750-41af-af2d-f6049c4446c0")
 	)
 	(no_connect
-		(at 237.998 201.676)
+		(at 212.598 201.676)
 		(uuid "c6ea4eba-f4fd-4d0d-bd29-cbfbae7350f5")
 	)
 	(no_connect
@@ -2932,7 +2944,7 @@
 		(uuid "cfd1f272-4119-4464-a705-887aefb27d18")
 	)
 	(no_connect
-		(at 237.998 206.756)
+		(at 212.598 206.756)
 		(uuid "e329f9cb-14c5-4264-b718-6cb609f95456")
 	)
 	(no_connect
@@ -2985,6 +2997,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.774 207.772) (xy 223.774 219.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056aaba9-9765-41f2-af5f-9436f837722e")
+	)
+	(wire
+		(pts
 			(xy 88.138 58.42) (xy 88.138 105.156)
 		)
 		(stroke
@@ -3032,16 +3054,6 @@
 			(type default)
 		)
 		(uuid "0f20ce0b-1e55-43d5-8c2a-6c746ab8f9fd")
-	)
-	(wire
-		(pts
-			(xy 237.998 199.136) (xy 239.522 199.136)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd7fc3f-1347-4b12-9906-0c7b46c3bcd7")
 	)
 	(wire
 		(pts
@@ -3115,6 +3127,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.998 219.202) (xy 223.774 219.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "199cd550-f4fa-4e9b-8362-37922af3757b")
+	)
+	(wire
+		(pts
 			(xy 231.394 92.964) (xy 231.394 105.664)
 		)
 		(stroke
@@ -3155,6 +3177,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.598 199.136) (xy 223.774 199.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1d4dce-18d4-4fc7-ac9d-94c1cf30f95b")
+	)
+	(wire
+		(pts
 			(xy 138.684 92.964) (xy 145.034 92.964)
 		)
 		(stroke
@@ -3162,6 +3194,16 @@
 			(type default)
 		)
 		(uuid "1fe763ef-2e2d-4388-85fc-3a63fb7a1198")
+	)
+	(wire
+		(pts
+			(xy 223.774 199.136) (xy 239.522 199.136)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200c7021-af6a-459d-b226-0d0fc1960b89")
 	)
 	(wire
 		(pts
@@ -3462,6 +3504,16 @@
 			(type default)
 		)
 		(uuid "5165d0bb-79c7-43e7-80c6-c49ccd731188")
+	)
+	(wire
+		(pts
+			(xy 212.598 219.202) (xy 212.598 209.296)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f49b7d-535b-45c9-9f42-1516d78f9c17")
 	)
 	(wire
 		(pts
@@ -3805,16 +3857,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.998 209.296) (xy 237.998 219.202)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e9ad2d8-d99f-48ba-b129-79355c3844ac")
-	)
-	(wire
-		(pts
 			(xy 349.504 63.5) (xy 358.394 63.5)
 		)
 		(stroke
@@ -4155,6 +4197,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.774 219.202) (xy 212.598 219.202)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2a98939-d753-432b-bd60-c0a18173ddf2")
+	)
+	(wire
+		(pts
 			(xy 138.684 92.964) (xy 138.684 105.664)
 		)
 		(stroke
@@ -4202,6 +4254,16 @@
 			(type default)
 		)
 		(uuid "bd06e66d-d977-48e2-8ddb-487b0ffffc27")
+	)
+	(wire
+		(pts
+			(xy 223.774 199.136) (xy 223.774 205.232)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd51c305-2ea9-4956-a3e9-61cec64a642f")
 	)
 	(wire
 		(pts
@@ -8455,7 +8517,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NMJ6HCD2")
-		(at 232.918 204.216 0)
+		(at 207.518 204.216 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8464,7 +8526,7 @@
 		(dnp no)
 		(uuid "8c943a6f-1fc8-4b7f-b72e-1396cfbcd2ad")
 		(property "Reference" "J14"
-			(at 232.283 214.7105 0)
+			(at 206.883 214.7105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8472,7 +8534,7 @@
 			)
 		)
 		(property "Value" "NMJ6HCD2"
-			(at 232.283 212.2862 0)
+			(at 206.883 212.2862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8480,7 +8542,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_6.35mm_Neutrik_NMJ6HCD2_Horizontal"
-			(at 232.918 204.216 0)
+			(at 207.518 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8489,7 +8551,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nmj6hcd2"
-			(at 232.918 204.216 0)
+			(at 207.518 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8498,7 +8560,7 @@
 			)
 		)
 		(property "Description" "M Series, 6.35mm (1/4in) stereo jack, switched, with chrome ferrule and straight PCB pins"
-			(at 232.918 204.216 0)
+			(at 207.518 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,6 +10616,76 @@
 			(project ""
 				(path "/0ea4a1ad-93c5-49ff-94da-e7ea5c0fdbe6"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 228.854 207.772 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dccb6b45-9f6b-4679-a372-279e6aa560b0")
+		(property "Reference" "J16"
+			(at 227.076 211.074 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 225.044 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_bornier-2_P5.08mm"
+			(at 228.854 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.854 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 228.854 207.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4a879c10-5ef5-4b9d-802b-b96353a4fd8b")
+		)
+		(pin "1"
+			(uuid "8955f56f-13c1-4f64-adb1-abe00cadc9fc")
+		)
+		(instances
+			(project "relays-array-8"
+				(path "/0ea4a1ad-93c5-49ff-94da-e7ea5c0fdbe6"
+					(reference "J16")
 					(unit 1)
 				)
 			)

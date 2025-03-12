@@ -33,13 +33,16 @@ The board should be populated differently depending on the intended function:
 ![](img/relays-jumper-closeup.png)
 
 The input/output section (part of the PCB on the left of J1 & K1) can also be
-used in 3 different ways:
-* external connector for the guitar in/speaker out: do not populate any
-  component except J10 (+12V) and J15 (to/from external connector)
+used in 4 different ways:
+* external connector, direct routing: do not populate any component except J10
+  (+12V) and **J15** (to/from external connector)
 * on-board jack connector, direct routing (recommended for speaker out board):
-  populate only J14 and J10, and apply solder across JPX1
-* on-board jack connector, input buffer (only suitable for guitar in board):
-  populate all components except J15
+  populate only J14 and J10, and (generously) apply solder across JPX1
+* external connector, input buffer (only suitable for "guitar input" board): do
+  not populate any component except J10 (+12V) and **J16** (to/from external
+  connector)
+* on-board jack connector, input buffer (only suitable for "guitar input"
+  board): populate all components except J15 and J16
 
 ![](img/relays-io-section.png)
 
