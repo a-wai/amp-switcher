@@ -819,7 +819,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J16"
-			(at 2.54 -5.08 0)
+			(at 2.58 5.1 0)
 			(layer "F.SilkS")
 			(uuid "13ce5ee1-a29c-4ffd-ba44-bbd4d3c8d570")
 			(effects
@@ -6745,7 +6745,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 7.62mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D9"
-			(at -1.39 2.3 90)
+			(at -2.09 0 180)
 			(layer "F.SilkS")
 			(uuid "08197790-4f2b-4f5b-8c79-c5bd534f667c")
 			(effects
@@ -7083,7 +7083,7 @@
 			(uuid "2d531535-a09e-4e3b-b6b1-b177fd080d11")
 		)
 		(fp_text user "K"
-			(at 0.71 2.3 90)
+			(at 0.81 -2.2 90)
 			(layer "F.SilkS")
 			(uuid "0607ae43-f7a2-43de-b201-c5b758c6102b")
 			(effects
@@ -12523,7 +12523,7 @@
 		(property "Reference" "J5"
 			(at 6.35 -3 90)
 			(layer "F.SilkS")
-			(uuid "1cd6eb9c-c489-4e29-8890-7f4aced6f63c")
+			(uuid "a8f44591-6a00-4809-b175-b6a83069f8d7")
 			(effects
 				(font
 					(size 1 1)
@@ -12534,7 +12534,7 @@
 		(property "Value" "NMJ6HCD2"
 			(at 6.35 19 90)
 			(layer "F.Fab")
-			(uuid "a5df469a-ee44-46be-a11c-423dd8a1c6de")
+			(uuid "08f477a7-628b-412a-a11f-77b2279fad12")
 			(effects
 				(font
 					(size 1 1)
@@ -12547,7 +12547,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b51ad705-fa3b-4d55-b17a-e489b3c65ac8")
+			(uuid "c7aaee1a-ed70-47ea-abb6-ae1da7c760e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,7 +12560,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e08f4404-8e73-4452-bb36-35f22a515b27")
+			(uuid "a4245072-c86a-4201-b72e-501e58051a6e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13254,7 +13254,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J15"
-			(at -3.4 -2.7 0)
+			(at -3.4 -2.8 0)
 			(layer "F.SilkS")
 			(uuid "adc2ee77-4bb7-432d-81ba-95ed87ecac77")
 			(effects
@@ -15632,7 +15632,7 @@
 		(descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
 		(tags "terminal block bornier2")
 		(property "Reference" "J10"
-			(at -0.02 -4.8 0)
+			(at -4.12 3.3 0)
 			(layer "F.SilkS")
 			(uuid "9da9db17-2d6c-459c-a885-ece660454f3f")
 			(effects
@@ -16235,6 +16235,32 @@
 		(layer "Edge.Cuts")
 		(uuid "e6d81ea1-a785-4ab5-a432-ac50b23c8ae3")
 	)
+	(gr_text "GND"
+		(at 48 105.8 0)
+		(layer "F.SilkS")
+		(uuid "3eb211bd-c701-47df-9ab2-2e564f14dfc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND    +12V"
+		(at 51 76.3 0)
+		(layer "F.SilkS")
+		(uuid "557e3804-b299-4c52-b3ba-37f62bfdc901")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Licensed under CERN-OHL-S v2\nhttps://github.com/a-wai/amp-switcher"
 		(at 85.5 113.4 90)
 		(layer "F.SilkS")
@@ -16247,6 +16273,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "IN    GND"
+		(at 44 120 0)
+		(layer "F.SilkS")
+		(uuid "67335cc6-861d-4f68-b017-0018d458d0fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "A-wai Amplification\nAmp Switcher v1.0"
 		(at 60.8 117.1 90)
 		(layer "F.SilkS")
@@ -16257,6 +16296,19 @@
 				(thickness 0.1)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "SIG"
+		(at 48.4 98.6 0)
+		(layer "F.SilkS")
+		(uuid "f5bbc47a-f5f2-4e93-86d3-9530c803ca66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment
