@@ -75,6 +75,11 @@ terminals of the "Relays Array" boards. Like the latter, it also includes
 oblong holes for easily resizing the PCB to your needs, and we still provide
 design and Gerber files for 2/4/6/8-way variants.
 
+Finally, a simpler (and more compact) version is also provided for 2-way
+devices, using a smaller ON-OFF-ON toggle switch instead of the rotary one.
+
+![](img/control-matrix-2-alt.png)
+
 *Note: those familiar with matrices will likely notice the "Control Matrix"
 naming isn't really accurate, as a 1xN matrix is basically an array, just like
 the "Relays Array" board is; however I didn't want to use "array" in both
@@ -86,6 +91,13 @@ Copyright 2025 Arnaud Ferraris.
 
 3D models for the Neutrik jacks are © Inventor eFX Technology and have been
 downloaded from https://www.inventfx.com/_ifxkicad/_ifxkicadxtra.htm
+
+3D models for the rotary and toggle switches aren't included due to licensing
+restrictions, but they can be downloaded from https://componentsearchengine.com
+* [CK1049](https://componentsearchengine.com/part-view/CK1049/Lorlin) rotary
+  switch
+* [A105SYZQ04](https://componentsearchengine.com/part-view/A105SYZQ04/TE%20Connectivity)
+  toggle switch
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
 
