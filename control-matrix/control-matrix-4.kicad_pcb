@@ -3923,6 +3923,19 @@
 		(layer "Edge.Cuts")
 		(uuid "d822d615-a7d0-495b-b592-26047952c6b4")
 	)
+	(gr_text "GND  +12V"
+		(at 140.4 81.6 0)
+		(layer "F.SilkS")
+		(uuid "157e18a7-e5c5-4dff-97c2-5c71ed203959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 67.98 84.17)
 		(end 65.4 86.75)
