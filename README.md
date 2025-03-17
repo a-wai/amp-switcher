@@ -60,13 +60,31 @@ amplifiers above 20W RMS of nominal output power.**
 
 ## Control Matrix
 
-TODO (yet to be designed)
+The control board is kept as simple as possible: it is made of a single rotary
+switch, with as many LEDs as needed to indicate the currently selected amp. The
+first switch position (fully counter-clockwise) is the OFF position where no
+amplifier is selected; turning the switch clockwise will select amplifiers one
+after another, lighting the corresponding LED on (the first being D1 -- the
+leftmost one -- then D2, D3 and so on...).
+
+![](img/control-matrix-8.png)
+
+This PCB is meant to be mounted directly on the front panel, with screw
+terminals on the opposite side of the board for connecting to the corresponding
+terminals of the "Relays Array" boards. Like the latter, it also includes
+oblong holes for easily resizing the PCB to your needs, and we still provide
+design and Gerber files for 2/4/6/8-way variants.
+
+*Note: those familiar with matrices will likely notice the "Control Matrix"
+naming isn't really accurate, as a 1xN matrix is basically an array, just like
+the "Relays Array" board is; however I didn't want to use "array" in both
+boards' names, and I think it sounds better that way anyway* 😉
 
 ## Licensing
 
 Copyright 2025 Arnaud Ferraris.
 
-The 3D models for the Neutrik jacks are © Inventor eFX Technology and have been
+3D models for the Neutrik jacks are © Inventor eFX Technology and have been
 downloaded from https://www.inventfx.com/_ifxkicad/_ifxkicadxtra.htm
 
 This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
