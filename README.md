@@ -72,8 +72,9 @@ leftmost one -- then D2, D3 and so on...).
 This PCB is meant to be mounted directly on the front panel, with screw
 terminals on the opposite side of the board for connecting to the corresponding
 terminals of the "Relays Array" boards. Like the latter, it also includes
-oblong holes for easily resizing the PCB to your needs, and we still provide
-design and Gerber files for 2/4/6/8-way variants.
+oblong holes for easily resizing the PCB to your needs (watch out for
+[#1](https://github.com/a-wai/amp-switcher/issues/1) though), and we still
+provide design and Gerber files for 2/4/6/8-way variants.
 
 Finally, a simpler (and more compact) version is also provided for 2-way
 devices, using a smaller ON-OFF-ON toggle switch instead of the rotary one.
