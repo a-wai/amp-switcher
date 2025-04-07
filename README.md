@@ -1,5 +1,13 @@
 # Amp Switcher
 
+Table of contents:
+* [Relays Array](#relays-array)
+* [Control Matrix](#control-matrix)
+* [Building](#building)
+* [Licensing](#licensing)
+
+---
+
 The Amp Switcher is a device for easily switching between (guitar) amplifiers
 when a single speaker cabinet is used and/or available.
 
