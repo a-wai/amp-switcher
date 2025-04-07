@@ -85,6 +85,59 @@ naming isn't really accurate, as a 1xN matrix is basically an array, just like
 the "Relays Array" board is; however I didn't want to use "array" in both
 boards' names, and I think it sounds better that way anyway* 😉
 
+## Building
+
+This project was kindly sponsored by [PCBWay](https://www.pcbway.com) who
+provided PCBs for the prototype builds free of charge, many thanks to them!
+Moreover, working with this company has been a really nice experience:
+* the ordering process was as easy as it gets (upload Gerber files, select
+  features, place order, and that's it!)
+* build time was 3-4 days as announced at order time (they also offer "express"
+  options for an additional fee)
+* quality and finish are both excellent! 👍
+
+![](img/pcbs-bare.jpg)
+
+When populating the boards, one should place and solder the components in the
+following order:
+
+1. Jumpers as needed (R1-R8 on the input board, JPX1 on the output one -- and
+   on the input board **when not wiring the optional buffer**)
+1. Diodes & low-wattage resistors
+1. *Input board w/ buffer only:* DIP-8 socket & 100 nF capacitors
+1. Screw terminals
+1. *Input board w/ buffer only:* electrolytic capacitors
+1. Relays & jack connectors
+1. *Output board only:* 2W resistors; keeping the resistors' bodies away from
+   the board is a good idea in case things go wrong: only the resistor will
+   burn, not the PCB!
+
+![](img/pcbs-populated.jpg)
+
+For the control matrix board, resistors should be mounted first, then the
+rotary switch. The LEDs are first mounted on the front panel, then soldered
+after putting the board in place (this can be tricky, but is feasible).
+
+A few additional notes:
+
+* R1-R8 values should be tweaked depending on the LEDs used, especially when
+  using various colors (e.g. 10k could work fine for blue LEDs, 5.1k for orange
+  ones, and 47k for "warm white" LEDs)
+* the GND post of the output board should remain unconnected
+* on this same board, the jumper connecting the ground plane to the GND signal
+  should be cut (this will probably be converted to an open solder jumper soon)
+
+![](img/amp-switcher-guts.jpg)
+
+Once all the boards are in place (but not fully secured yet), one just has to
+run the wires to/from the appropriate solder terminals and the DC input
+connector. Here, using wires of various different colors is an efficient way
+not to get lost and ensure the wiring is correct.
+
+![](img/amp-switcher-front.jpg)
+
+![](img/amp-switcher-back.jpg)
+
 ## Licensing
 
 Copyright 2025 Arnaud Ferraris.
